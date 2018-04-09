@@ -1,6 +1,6 @@
 .BuildControls {
     width: 100%;
-    background-color: #CF8F2E;
+    background-color: #EFC551;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -10,21 +10,23 @@
 }
 
 .OrderButton {
-    background-color: #DAD735;
+    background-color: #00914F;
     outline: none;
     cursor: pointer;
-    border: 1px solid #966909;
-    color: #966909;
+    border: 1px solid #007A43;
+    color: white;
     font-family: inherit;
-    font-size: 1.2em;
-    padding: 15px 30px;
-    box-shadow: 2px 2px 2px #966909;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 15px 15px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 8px;
 }
 
 .OrderButton:hover, .OrderButton:active {
-    background-color: #A0DB41;
-    border: 1px solid #966909;
-    color: #966909;
+    background-color: #00B563;
+    border: 1px solid #007A43;
+    color: white;
 }
 
 .OrderButton:disabled {

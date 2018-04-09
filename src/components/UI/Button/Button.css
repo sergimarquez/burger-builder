@@ -21,10 +21,17 @@
 }
 
 .Success {
-    color: #5C9210;
+    color: #00914F;
+}
+
+.Success:hover {
+    color: #00B563;
 }
 
 .Danger {
-    color: #944317;
+    color: #A8201A;
 }
 
+.Danger:hover {
+    color: #C6261D;
+}
